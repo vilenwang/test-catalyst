@@ -13,6 +13,7 @@ interface Props {
 
 export function ScriptProduction({ storeHash, channelId, token, environment }: Props) {
   useB2BAuth(token);
+  console.log(environment, 'environmentenvironment');
 
   return (
     <>
